@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>네이버</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./naver3.css">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Dotum, '돋움', Helvetica, "Apple SD Gothic Neo", sans-serif;
+    }
+
+    footer {
+      font-size: 12px;
+      line-height: 16px;
+      color: #202020;
+      font-family: -apple-system,BlinkMacSystemFont,"Malgun Gothic","맑은 고딕",helvetica,"Apple SD Gothic Neo",sans-serif;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+    }
+
+    .inline-block {
+      display: inline-block;
+    }
+
+    .float-left {
+      float: left;
+    }
+
+    .float-right {
+      float: right;
+    }
+  </style>
+  <link rel="stylesheet" href="./webfont.css">
+</head>
+<body>
+<header>
+  <div class="center-align">
+    <div id="header-top">
+      <span>네이버를 시작페이지로 > |</span>
+      <span>쥬니어 네이버 |</span>
+      <span>해피빈</span>
+    </div>
+    <div id="header-search">
+      <a href="https://www.naver.com/">
+        <h1>
+          <span>네이버</span>
+        </h1>
+      </a>
+      <h2 class="blind">검색창</h2>
+        <fieldset>
+          <legend class="blind">검색</legend> <!--fieldset의 이름 지정-->
+          <input type="text">
+          <span id="search-keyboard"></span>
+          <span id="search-history"></span>
+          <button>
+            <span class="blind">검색</span>
+            <span id="search-image"></span>
+          </button>
+        </fieldset>
+    </div>
+  </div>
+</header>
+<nav>
+  <div class="center-align relative">
+    <ul id="nav-menu">
+      <li>
+        <a href="">
+          <span></span>
+          <span class="blind">메일</span>
+        </a>
+      </li>
+      <li><a href=""><span></span><span class="blind">카페</span></a></li>
+      <li><a href=""><span></span><span class="blind">블로그</span></a></li>
+      <li><a href=""><span></span><span class="blind">지식IN</span></a></li>
+      <li><a href=""><span></span><span class="blind">쇼핑</span></a></li>
+      <li><a href=""><span></span><span class="blind">Pay</span></a></li>
+      <li><a href=""><span></span><span class="blind">TY</span></a></li>
+      <li><a href=""><span></span><span class="blind">사전</span></a></li>
+      <li><a href=""><span></span><span class="blind">뉴스</span></a></li>
+      <li><a href=""><span></span><span class="blind">증권</span></a></li>
+      <li><a href=""><span></span><span class="blind">부동산</span></a></li>
+      <li><a href=""><span></span><span class="blind">지도</span></a></li>
+      <li><a href=""><span></span><span class="blind">영화</span></a></li>
+      <li><a href=""><span></span><span class="blind">뮤직</span></a></li>
+      <li><a href=""><span></span><span class="blind">책</span></a></li>
+      <li><a href=""><span></span><span class="blind">웹툰</span></a></li>
+      <li><a href=""><span></span><span class="blind">더보기</span></a></li>
+    </ul>
+    <div id="nav-divider"></div>
+    <div id="search-ranking">
+      <h2 class="blind">실시간 검색어</h2>
+      <div>
+        <span id="rank-number">1</span>
+        <span id="rank-title">박효민</span>
+      </div>
+    </div>
+  </div>
+</nav>
+<main>
+  <div id="main-center" class="center-align">
+    <div id="main-first-block">
+      <section id="gogwang">
+        <h3 class="blind">첫 번째 광고</h3>
+      </section>
+      <section id="main-login">
+        <h3 class="blind">로그인</h3>
+        <div id="login-wrapper">
+          <span id="login-text">네이버를 더 안전하고 편안하게 이용하세요.</span>
+          <a href="https://nid.naver.com/nidlogin.login?mode=form&url=https%3A%2F%2Fwww.naver.com">
+            <span class="blind">로그인-이미지</span>
+            <span id="login-image"></span>
+          </a>  
+          <a href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR&cpno=">
+             회원가입
+          </a>   
+        </div>
+      </section>
+    </div>
+    <div id="main-second-block">
+      <div class="float-left">
+        <section id="main-news">
+          <h3>연합뉴스</h3>
+          <ol>
+            <li> 아 쥰내 어렵네...</li>
+          </ol>
+        </section>
+        <section id="main-newsstand">
+          <h3>뉴스스탠드</h3>
+          <ul>
+            <li><img src="./과학동아.png" alt="과학동아" /></li>
+            <li><img src="./한국일보.png" alt="한국일보" /></li>
+            <li><img src="./osen.png" alt="osen" /></li>
+            <li><img src="./매일경제.png" alt="매일경제" /></li>
+            <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+            <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
+            <li><img src="./과학동아.png" alt="과학동아" /></li>
+            <li><img src="./한국일보.png" alt="한국일보" /></li>
+            <li><img src="./osen.png" alt="osen" /></li>
+            <li><img src="./매일경제.png" alt="매일경제" /></li>
+            <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+            <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
+            <li><img src="./과학동아.png" alt="과학동아" /></li>
+            <li><img src="./한국일보.png" alt="한국일보" /></li>
+            <li><img src="./osen.png" alt="osen" /></li>
+            <li><img src="./매일경제.png" alt="매일경제" /></li>
+            <li><img src="./파이낸셜뉴스.png" alt="파이낸셜뉴스" /></li>
+            <li><img src="./한국경제TV.png" alt="한국경제TV" /></li>
+          </ul>
+        </section>
+      </div>
+      <div class="float-left">
+        <section id="main-weather">
+          <h3 class="blind">날씨</h3>
+        </section>
+        <section id="main-second-ad">
+          <h3 class="blind">광고2</h3>
+        </section>
+      </div>
+    </div>
+    <div id="main-third-block">
+      <section id="main-category">
+        <h3 class="blind">주제별 보기</h3>
+        <div id="main-category-top">
+          <button id="subject-all"><span class="blind">전체 주제 보기</span><span></span></button>
+          <div id="subject-list">
+            <div class="opacity left"></div>
+            <ul>
+              <li>리빙</li>
+              <li>푸드</li>
+              <li>스포츠</li>
+              <li>자동차</li>
+              <li>패션</li>
+              <li>패션뷰티</li>
+              <li>부모i</li>
+              <li id="highlight">건강</li>
+              <li>웹툰</li>
+              <li>게임</li>
+              <li>TV연예</li>
+              <li>뮤직</li>
+              <li>영화</li>
+              <li>책문화</li>
+            </ul>
+            <div class="opacity right"></div>
+          </div>
+          <button id="subject-prev"><span class="blind">이전 주제</span><span></span></button>
+          <button id="subject-next"><span class="blind">다음 주제</span><span></span></button>
+        </div>
+      </section>
+      <section id="main-shopping">
+        <h3 class="blind">쇼핑</h3>
+        <iframe src="https://castbox.shopping.naver.com/shopbox/main.nhn?" width="330" height="884"></iframe>
+      </section>
+    </div>
+    <div id="main-fourth-block">
+      <section id="main-event">
+        <h3 class="blind">이벤트</h3>
+      </section>
+      <section id="main-third-ad">
+        <h3 class="blind">광고3</h3>
+      </section>
+    </div>
+  </div>  
+</main>
+<footer>
+  <div id="footer-inner" class="center-align">
+    <div id="gwanggo"></div>
+    <div id="notice-area">
+      <div class="float-left">
+        <h3>
+          <a href="https://www.naver.com/NOTICE">공지사항</a>
+        </h3>
+      </div>
+      <div class="float-right">
+        <h3>
+          <a href="https://www.naver.com/more.html">서비스 전체보기</a>
+        </h3>
+      </div>
+    </div>
+    <div id="aside-area">
+      <div class="float-left" id="creators">
+        <h3 class="float-left">Creators</h3>
+        <a href="https://www.navercorp.com/service/creators">크리에이터 |</a>
+        <a href="https://www.navercorp.com/service/business">스몰비지니스</a>
+      </div>
+      <div id="partners">
+        <h3>Partners</h3>
+        <a href="https://campaign.naver.com/smefullcare/online/">SME 풀케어 시스템 | </a>
+        <a href="https://business.naver.com/service.html"> 비즈니스 * 광고 |</a>
+        <a href="https://sell.smartstore.naver.com/#/home/about">스토어 개설 |</a>
+        <a href="https://new.smartplace.naver.com/">지역업체 등록 |</a>
+        <a href="https://expert.naver.com/expert/introduction?tab=guide#join">엑스퍼트 등록 |</a>
+      </div>
+      <div id="developers">
+        <h3>Developers</h3>
+        <a href="https://developers.naver.com/main/">네이버 개발자센터 |</a>
+        <a href="https://developers.naver.com/docs/common/openapiguide/#/apilist.md">오픈 API</a>
+        <a href="https://naver.github.io/">오픈소스 |</a>
+        <a href="https://d2.naver.com/hom">네이버 D2 |</a>
+        <a href="http://d2startup.com/">네이버D2SF |</a>
+        <a href="https://www.naverlabs.com/">네이버 랩스 |</a>
+      </div>
+    </div>
+    <div id="corp-area">
+      <h3 class="blind">네이버 정책 및 약관</h3>
+      <ul id="list-corp">
+        <li><a href="https://www.navercorp.com/">회사소개 |</a></li>
+        <li><a href="">인재채용 |</a></li>
+        <li><a href="">제휴제안 |</a></li>
+        <li><a href="">이용약관 |</a></li>
+        <li><a href=""><strong>개인정보처리방침 |</strong></a></li>
+        <li><a href="">청년보호정책 |</a></li>
+        <li><a href="">네이버 정책 |</a></li>
+        <li><a href="">고객센터</a></li>
+        <li><a href=""></a></li>
+      </ul>
+
+      <h3 id="corp-items"></h3>
+      <ul></ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
